@@ -96,7 +96,7 @@ open class ExpandingMenuItem: UIView {
         
         // Configure front images
         //
-        self.frontImageView.contentMode = .center
+        self.frontImageView.contentMode = .scaleAspectFill
         self.frontImageView.translatesAutoresizingMaskIntoConstraints = false
         self.addSubview(self.frontImageView)
         
